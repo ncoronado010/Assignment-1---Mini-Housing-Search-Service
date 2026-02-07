@@ -4,18 +4,6 @@ import time
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple
 
-# Client <-> App Server protocol:
-# Requests: LIST | SEARCH city=... max_price=... | QUIT
-# Responses:
-#   OK RESULT <n>\n
-#   listing lines (n)
-#   END\n
-# or ERROR <msg>\n
-#
-# App Server <-> Data Server protocol:
-#   RAW_LIST
-#   RAW_SEARCH city=... max_price=...
-# same response framing: OK RESULT <n> ... END
 
 LOG_FILE = "app_server.log"
 
@@ -24,7 +12,7 @@ def log_line(direction: str, msg: str) -> None:
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"{ts} {direction} {msg}\n")
 
-#Created a class to hold the read_line command so the buffer isn't deleted every use.
+#class to hold the read_line command so the buffer doesn't delete every time you use it
 class BufferReader:
     def __init__(self, conn: socket.socket):
         self.conn = conn
@@ -42,30 +30,13 @@ class BufferReader:
 
             self.buf += chunk
 
-
-
-#Original read_line()
-# def read_line(conn: socket.socket) -> Optional[str]:
-#     buf = b""
-#     while True:
-#         chunk = conn.recv(4096)
-#         print(f"TEST chunk being passed into app_server.read_line:\n {chunk}") #DEBUGGING --------------------
-#         if not chunk:
-#             return None
-#         buf += chunk
-#         if b"\n" in buf:
-#             line, _ = buf.split(b"\n", 1)
-#             return line.decode("ascii", errors="replace").strip()
-
-
-
-#Changed recv to take in a BufferReader object instead of conn, and use the new read_line function
+#recv to take in a BufferReader object instead of conn, and use the new read_line function
 
 def recv_framed_response(reader) -> Tuple[bool, List[str], str]:
     # Reads until END or ERROR
     lines: List[str] = []
     while True:
-        line = reader.read_line()  #saving line using the new read_line fucntion                     #line = read_line(conn)
+        line = reader.read_line() 
         if line is None:
             return False, [], "connection closed while reading response TEST B"
         lines.append(line)
@@ -84,7 +55,6 @@ def parse_kv(parts: List[str]) -> Dict[str, str]:
     return kv
 
 def parse_listing_line(line: str) -> Dict[str, str]:
-    # id=1;city=LongBeach;address=...;price=2200;bedrooms=2
     out: Dict[str, str] = {}
     fields = line.split(";")
     for f in fields:
@@ -128,15 +98,15 @@ class LRUCache:
         while len(self._od) > self.max_size:
             self._od.popitem(last=False)
 
-#Created a BufferReader object and passed the socket into it. The object holds the current buffer until the with ends.
+#BufferReader object and passes the socket into it. The object holds the current buffer.
 def forward_to_data_server(data_host: str, data_port: int, cmd: str):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.settimeout(3.0)
             s.connect((data_host, data_port))
-            reader = BufferReader(s)  #Create BufferReader Object
+            reader = BufferReader(s) 
             s.sendall((cmd + "\n").encode("ascii"))
-            ok, lines, err = recv_framed_response(reader)  #Passing BufferReader object instead of socket         #ok, lines, err = recv_framed_response(s) #Orignal
+            ok, lines, err = recv_framed_response(reader)  #BufferReader object instead of socket
             return ok, lines, err
     except Exception as e:
         return False, [], f"data server unreachable: {e}"
@@ -235,10 +205,10 @@ def main() -> None:
     while True:
         conn, addr = srv.accept()
         with conn:
-            reader = BufferReader(conn) #Create BufferReader Object
+            reader = BufferReader(conn) 
             log_line("INFO", f"client connected {addr}")
             while True:
-                line = reader.read_line() #Creating line with the new read_line function           #line = read_line(conn) #Original
+                line = reader.read_line() #line with the new read_line function 
                 if line is None:
                     log_line("INFO", f"client disconnected {addr}")
                     break
@@ -255,7 +225,7 @@ def main() -> None:
                 except Exception as e:
                     resp_lines = [f"ERROR internal server error: {e}\n"]
 
-                # Log replies (single-line log per reply chunk)
+                # Log replies
                 for ln in resp_lines:
                     log_line("RESP", f"to={addr} {ln.rstrip()}")
 
