@@ -1,0 +1,22 @@
+[
+  {"id": 1, "city": "LongBeach", "address": "123 Ocean Blvd", "price": 2200, "bedrooms": 2},
+  {"id": 2, "city": "LongBeach", "address": "45 Pine Ave", "price": 2400, "bedrooms": 3},
+  {"id": 3, "city": "LongBeach", "address": "78 Elm St", "price": 1800, "bedrooms": 1},
+  {"id": 4, "city": "LA", "address": "100 Sunset Blvd", "price": 3200, "bedrooms": 2},
+  {"id": 5, "city": "LA", "address": "200 Hollywood Rd", "price": 2800, "bedrooms": 1},
+  {"id": 6, "city": "LA", "address": "321 Vine St", "price": 3500, "bedrooms": 3},
+  {"id": 7, "city": "SanDiego", "address": "10 Bay St", "price": 2600, "bedrooms": 2},
+  {"id": 8, "city": "SanDiego", "address": "22 Harbor Dr", "price": 2100, "bedrooms": 1},
+  {"id": 9, "city": "SanFrancisco", "address": "1 Market St", "price": 4200, "bedrooms": 2},
+  {"id": 10, "city": "SanFrancisco", "address": "9 Castro St", "price": 3800, "bedrooms": 1},
+  {"id": 11, "city": "LongBeach", "address": "999 Pine Ave", "price": 2400, "bedrooms": 3},
+  {"id": 12, "city": "Irvine", "address": "50 Campus Dr", "price": 2000, "bedrooms": 1},
+  {"id": 13, "city": "Irvine", "address": "55 Campus Dr", "price": 2300, "bedrooms": 2},
+  {"id": 14, "city": "LA", "address": "77 Laurel Canyon", "price": 2900, "bedrooms": 2},
+  {"id": 15, "city": "LongBeach", "address": "180 Seaside Way", "price": 2500, "bedrooms": 3},
+  {"id": 16, "city": "SanDiego", "address": "300 Ocean Ave", "price": 2700, "bedrooms": 2},
+  {"id": 17, "city": "LongBeach", "address": "400 Harbor Blvd", "price": 2100, "bedrooms": 1},
+  {"id": 18, "city": "LA", "address": "808 Melrose Ave", "price": 3300, "bedrooms": 3},
+  {"id": 19, "city": "Irvine", "address": "12 University Pl", "price": 1950, "bedrooms": 1},
+  {"id": 20, "city": "SanFrancisco", "address": "77 Lombard St", "price": 4500, "bedrooms": 3}
+]

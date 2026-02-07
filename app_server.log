@@ -1,0 +1,207 @@
+2026-02-05 16:08:57 INFO app_server started host=127.0.0.1 port=5000 cache=ON
+2026-02-05 16:10:58 INFO client connected ('127.0.0.1', 64366)
+2026-02-05 16:11:27 REQ from=('127.0.0.1', 64366) LIST
+2026-02-05 16:11:27 RESP to=('127.0.0.1', 64366) ERROR connection closed while reading response
+2026-02-05 16:11:35 REQ from=('127.0.0.1', 64366) LIST
+2026-02-05 16:11:35 RESP to=('127.0.0.1', 64366) ERROR connection closed while reading response
+2026-02-05 16:14:52 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:15:42 INFO client connected ('127.0.0.1', 64476)
+2026-02-05 16:15:52 REQ from=('127.0.0.1', 64476) LIST
+2026-02-05 16:15:52 RESP to=('127.0.0.1', 64476) ERROR connection closed while reading response
+2026-02-05 16:19:36 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:19:46 INFO client connected ('127.0.0.1', 64531)
+2026-02-05 16:19:55 REQ from=('127.0.0.1', 64531) LIST
+2026-02-05 16:19:55 RESP to=('127.0.0.1', 64531) ERROR connection closed while reading response
+2026-02-05 16:20:41 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:20:45 INFO client connected ('127.0.0.1', 64549)
+2026-02-05 16:20:49 REQ from=('127.0.0.1', 64549) LIST
+2026-02-05 16:20:49 RESP to=('127.0.0.1', 64549) ERROR connection closed while reading response
+2026-02-05 16:21:01 REQ from=('127.0.0.1', 64549) SEARCH
+2026-02-05 16:21:01 RESP to=('127.0.0.1', 64549) ERROR SEARCH requires city and max_price
+2026-02-05 16:21:55 REQ from=('127.0.0.1', 64549) SEARCH city=LongBeach max_price=2400
+2026-02-05 16:21:55 RESP to=('127.0.0.1', 64549) ERROR connection closed while reading response
+2026-02-05 16:22:12 INFO client disconnected ('127.0.0.1', 64549)
+2026-02-05 16:22:25 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:22:29 INFO client connected ('127.0.0.1', 64576)
+2026-02-05 16:22:31 REQ from=('127.0.0.1', 64576) LIST
+2026-02-05 16:22:31 RESP to=('127.0.0.1', 64576) ERROR connection closed while reading response
+2026-02-05 16:34:19 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:34:23 INFO client connected ('127.0.0.1', 64778)
+2026-02-05 16:34:25 REQ from=('127.0.0.1', 64778) LIST
+2026-02-05 16:34:25 RESP to=('127.0.0.1', 64778) ERROR connection closed while reading response
+2026-02-05 16:40:02 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 16:40:05 INFO client connected ('127.0.0.1', 64866)
+2026-02-05 16:40:08 REQ from=('127.0.0.1', 64866) LIST
+2026-02-05 16:40:08 RESP to=('127.0.0.1', 64866) ERROR connection closed while reading response
+2026-02-05 20:32:30 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 20:56:11 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 20:56:27 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 21:53:01 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 21:53:07 INFO client connected ('127.0.0.1', 51283)
+2026-02-05 21:53:17 REQ from=('127.0.0.1', 51283) LIST
+2026-02-05 21:53:17 RESP to=('127.0.0.1', 51283) ERROR connection closed while reading response
+2026-02-05 21:54:45 REQ from=('127.0.0.1', 51283) SEARCH Long Beach
+2026-02-05 21:54:45 RESP to=('127.0.0.1', 51283) ERROR bad field 'Long' (expected key=value)
+2026-02-05 21:54:49 REQ from=('127.0.0.1', 51283) SEARCH LongBeach
+2026-02-05 21:54:49 RESP to=('127.0.0.1', 51283) ERROR bad field 'LongBeach' (expected key=value)
+2026-02-05 21:54:54 REQ from=('127.0.0.1', 51283) LIST
+2026-02-05 21:54:54 RESP to=('127.0.0.1', 51283) ERROR connection closed while reading response
+2026-02-05 22:11:13 REQ from=('127.0.0.1', 51283) QUIT
+2026-02-05 22:11:13 RESP to=('127.0.0.1', 51283) OK RESULT 0
+2026-02-05 22:11:13 RESP to=('127.0.0.1', 51283) END
+2026-02-05 22:11:13 INFO closing connection ('127.0.0.1', 51283)
+2026-02-05 22:11:15 INFO client connected ('127.0.0.1', 56855)
+2026-02-05 22:11:21 REQ from=('127.0.0.1', 56855) LIST
+2026-02-05 22:11:21 RESP to=('127.0.0.1', 56855) ERROR connection closed while reading response
+2026-02-05 22:22:44 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:22:52 REQ from=('127.0.0.1', 56855) quit
+2026-02-05 22:22:52 RESP to=('127.0.0.1', 56855) ERROR unknown command 'quit'
+2026-02-05 22:22:52 INFO client disconnected ('127.0.0.1', 56855)
+2026-02-05 22:22:54 INFO client connected ('127.0.0.1', 54497)
+2026-02-05 22:22:56 REQ from=('127.0.0.1', 54497) LIST
+2026-02-05 22:22:56 RESP to=('127.0.0.1', 54497) ERROR connection closed while reading response
+2026-02-05 22:23:23 INFO client connected ('127.0.0.1', 58220)
+2026-02-05 22:23:25 REQ from=('127.0.0.1', 58220) LIST
+2026-02-05 22:23:25 RESP to=('127.0.0.1', 58220) ERROR connection closed while reading response
+2026-02-05 22:39:13 REQ from=('127.0.0.1', 58220) quit
+2026-02-05 22:39:13 RESP to=('127.0.0.1', 58220) ERROR unknown command 'quit'
+2026-02-05 22:39:13 INFO client disconnected ('127.0.0.1', 58220)
+2026-02-05 22:39:15 INFO client connected ('127.0.0.1', 50124)
+2026-02-05 22:39:18 REQ from=('127.0.0.1', 50124) LIST
+2026-02-05 22:39:18 RESP to=('127.0.0.1', 50124) ERROR connection closed while reading response
+2026-02-05 22:40:06 REQ from=('127.0.0.1', 50124) QUIT
+2026-02-05 22:40:06 RESP to=('127.0.0.1', 50124) OK RESULT 0
+2026-02-05 22:40:06 RESP to=('127.0.0.1', 50124) END
+2026-02-05 22:40:06 INFO closing connection ('127.0.0.1', 50124)
+2026-02-05 22:40:08 INFO client connected ('127.0.0.1', 50531)
+2026-02-05 22:40:11 REQ from=('127.0.0.1', 50531) LIST
+2026-02-05 22:40:11 RESP to=('127.0.0.1', 50531) ERROR connection closed while reading response
+2026-02-05 22:40:17 REQ from=('127.0.0.1', 50531) QUIT
+2026-02-05 22:40:17 RESP to=('127.0.0.1', 50531) OK RESULT 0
+2026-02-05 22:40:17 RESP to=('127.0.0.1', 50531) END
+2026-02-05 22:40:17 INFO closing connection ('127.0.0.1', 50531)
+2026-02-05 22:40:32 INFO client connected ('127.0.0.1', 53325)
+2026-02-05 22:40:37 REQ from=('127.0.0.1', 53325) LIST
+2026-02-05 22:40:37 RESP to=('127.0.0.1', 53325) ERROR connection closed while reading response
+2026-02-05 22:41:36 REQ from=('127.0.0.1', 53325) QUIT
+2026-02-05 22:41:36 RESP to=('127.0.0.1', 53325) OK RESULT 0
+2026-02-05 22:41:36 RESP to=('127.0.0.1', 53325) END
+2026-02-05 22:41:36 INFO closing connection ('127.0.0.1', 53325)
+2026-02-05 22:41:39 INFO client connected ('127.0.0.1', 61166)
+2026-02-05 22:41:41 REQ from=('127.0.0.1', 61166) LIST
+2026-02-05 22:41:41 RESP to=('127.0.0.1', 61166) ERROR connection closed while reading response
+2026-02-05 22:42:11 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:42:16 INFO client connected ('127.0.0.1', 61170)
+2026-02-05 22:42:18 REQ from=('127.0.0.1', 61170) LIST
+2026-02-05 22:42:18 RESP to=('127.0.0.1', 61170) ERROR connection closed while reading response
+2026-02-05 22:42:20 REQ from=('127.0.0.1', 61170) QUIT
+2026-02-05 22:42:20 RESP to=('127.0.0.1', 61170) OK RESULT 0
+2026-02-05 22:42:20 RESP to=('127.0.0.1', 61170) END
+2026-02-05 22:42:20 INFO closing connection ('127.0.0.1', 61170)
+2026-02-05 22:42:32 INFO client connected ('127.0.0.1', 53051)
+2026-02-05 22:42:34 REQ from=('127.0.0.1', 53051) LIST
+2026-02-05 22:42:34 RESP to=('127.0.0.1', 53051) ERROR connection closed while reading response
+2026-02-05 22:42:51 REQ from=('127.0.0.1', 53051) QUIT
+2026-02-05 22:42:51 RESP to=('127.0.0.1', 53051) OK RESULT 0
+2026-02-05 22:42:51 RESP to=('127.0.0.1', 53051) END
+2026-02-05 22:42:51 INFO closing connection ('127.0.0.1', 53051)
+2026-02-05 22:42:52 INFO client connected ('127.0.0.1', 53053)
+2026-02-05 22:42:54 REQ from=('127.0.0.1', 53053) LIST
+2026-02-05 22:42:54 RESP to=('127.0.0.1', 53053) ERROR connection closed while reading response
+2026-02-05 22:43:28 REQ from=('127.0.0.1', 53053) QUIT
+2026-02-05 22:43:28 RESP to=('127.0.0.1', 53053) OK RESULT 0
+2026-02-05 22:43:28 RESP to=('127.0.0.1', 53053) END
+2026-02-05 22:43:28 INFO closing connection ('127.0.0.1', 53053)
+2026-02-05 22:43:30 INFO client connected ('127.0.0.1', 51062)
+2026-02-05 22:43:31 REQ from=('127.0.0.1', 51062) LIST
+2026-02-05 22:43:31 RESP to=('127.0.0.1', 51062) ERROR connection closed while reading response
+2026-02-05 22:43:50 REQ from=('127.0.0.1', 51062) QUIT
+2026-02-05 22:43:50 RESP to=('127.0.0.1', 51062) OK RESULT 0
+2026-02-05 22:43:50 RESP to=('127.0.0.1', 51062) END
+2026-02-05 22:43:50 INFO closing connection ('127.0.0.1', 51062)
+2026-02-05 22:43:51 INFO client connected ('127.0.0.1', 51064)
+2026-02-05 22:43:52 REQ from=('127.0.0.1', 51064) LIST
+2026-02-05 22:43:52 RESP to=('127.0.0.1', 51064) ERROR connection closed while reading response
+2026-02-05 22:44:47 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:45:03 INFO client connected ('127.0.0.1', 51131)
+2026-02-05 22:45:04 REQ from=('127.0.0.1', 51131) LIST
+2026-02-05 22:45:04 RESP to=('127.0.0.1', 51131) ERROR connection closed while reading response BEAR2
+2026-02-05 22:45:45 REQ from=('127.0.0.1', 51131) QUIT
+2026-02-05 22:45:45 RESP to=('127.0.0.1', 51131) OK RESULT 0
+2026-02-05 22:45:45 RESP to=('127.0.0.1', 51131) END
+2026-02-05 22:45:45 INFO closing connection ('127.0.0.1', 51131)
+2026-02-05 22:45:46 INFO client connected ('127.0.0.1', 51199)
+2026-02-05 22:45:48 REQ from=('127.0.0.1', 51199) LIST
+2026-02-05 22:45:48 RESP to=('127.0.0.1', 51199) ERROR connection closed while reading response BEAR2
+2026-02-05 22:46:20 REQ from=('127.0.0.1', 51199) QUIT
+2026-02-05 22:46:20 RESP to=('127.0.0.1', 51199) OK RESULT 0
+2026-02-05 22:46:20 RESP to=('127.0.0.1', 51199) END
+2026-02-05 22:46:20 INFO closing connection ('127.0.0.1', 51199)
+2026-02-05 22:46:21 INFO client connected ('127.0.0.1', 55630)
+2026-02-05 22:46:26 REQ from=('127.0.0.1', 55630) LIST
+2026-02-05 22:46:26 RESP to=('127.0.0.1', 55630) ERROR connection closed while reading response BEAR2
+2026-02-05 22:47:09 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:47:15 INFO client connected ('127.0.0.1', 63037)
+2026-02-05 22:47:17 REQ from=('127.0.0.1', 63037) LIST
+2026-02-05 22:47:17 RESP to=('127.0.0.1', 63037) ERROR connection closed while reading response BEAR2
+2026-02-05 22:51:29 REQ from=('127.0.0.1', 63037) QUIT
+2026-02-05 22:51:29 RESP to=('127.0.0.1', 63037) OK RESULT 0
+2026-02-05 22:51:29 RESP to=('127.0.0.1', 63037) END
+2026-02-05 22:51:29 INFO closing connection ('127.0.0.1', 63037)
+2026-02-05 22:51:30 INFO client connected ('127.0.0.1', 50227)
+2026-02-05 22:51:35 REQ from=('127.0.0.1', 50227) LIST
+2026-02-05 22:51:35 RESP to=('127.0.0.1', 50227) ERROR connection closed while reading response BEAR2
+2026-02-05 22:51:47 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:51:52 INFO client connected ('127.0.0.1', 54626)
+2026-02-05 22:51:53 REQ from=('127.0.0.1', 54626) LIST
+2026-02-05 22:51:53 RESP to=('127.0.0.1', 54626) ERROR connection closed while reading response BEAR2
+2026-02-05 22:52:20 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:52:26 INFO client connected ('127.0.0.1', 62887)
+2026-02-05 22:52:27 REQ from=('127.0.0.1', 62887) LIST
+2026-02-05 22:52:27 RESP to=('127.0.0.1', 62887) ERROR connection closed while reading response BEAR2
+2026-02-05 22:54:15 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 22:54:19 INFO client connected ('127.0.0.1', 60067)
+2026-02-05 22:54:20 REQ from=('127.0.0.1', 60067) LIST
+2026-02-05 22:54:20 RESP to=('127.0.0.1', 60067) ERROR connection closed while reading response BEAR2
+2026-02-05 22:56:54 REQ from=('127.0.0.1', 60067) LIST
+2026-02-05 22:56:54 RESP to=('127.0.0.1', 60067) ERROR connection closed while reading response BEAR2
+2026-02-05 23:02:55 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:03:02 INFO client connected ('127.0.0.1', 57590)
+2026-02-05 23:03:02 REQ from=('127.0.0.1', 57590) LIST
+2026-02-05 23:03:02 RESP to=('127.0.0.1', 57590) ERROR data server unreachable: too many values to unpack (expected 2)
+2026-02-05 23:03:20 REQ from=('127.0.0.1', 57590) QUIT
+2026-02-05 23:03:20 RESP to=('127.0.0.1', 57590) OK RESULT 0
+2026-02-05 23:03:20 RESP to=('127.0.0.1', 57590) END
+2026-02-05 23:03:20 INFO closing connection ('127.0.0.1', 57590)
+2026-02-05 23:03:22 INFO client connected ('127.0.0.1', 57592)
+2026-02-05 23:03:34 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:04:03 INFO client connected ('127.0.0.1', 55519)
+2026-02-05 23:04:05 REQ from=('127.0.0.1', 55519) LIST
+2026-02-05 23:04:05 RESP to=('127.0.0.1', 55519) ERROR connection closed while reading response BEAR2
+2026-02-05 23:06:46 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:07:10 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:07:15 INFO client connected ('127.0.0.1', 52483)
+2026-02-05 23:07:17 REQ from=('127.0.0.1', 52483) LIST
+2026-02-05 23:07:17 RESP to=('127.0.0.1', 52483) ERROR connection closed while reading response BEAR2
+2026-02-05 23:07:22 REQ from=('127.0.0.1', 52483) LIST
+2026-02-05 23:07:22 RESP to=('127.0.0.1', 52483) ERROR connection closed while reading response BEAR2
+2026-02-05 23:07:35 REQ from=('127.0.0.1', 52483) QUIT
+2026-02-05 23:07:35 RESP to=('127.0.0.1', 52483) OK RESULT 0
+2026-02-05 23:07:35 RESP to=('127.0.0.1', 52483) END
+2026-02-05 23:07:35 INFO closing connection ('127.0.0.1', 52483)
+2026-02-05 23:07:48 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:07:53 INFO client connected ('127.0.0.1', 53919)
+2026-02-05 23:07:57 REQ from=('127.0.0.1', 53919) LIST
+2026-02-05 23:07:57 RESP to=('127.0.0.1', 53919) ERROR connection closed while reading response BEAR2
+2026-02-05 23:08:02 REQ from=('127.0.0.1', 53919) QUIT
+2026-02-05 23:08:02 RESP to=('127.0.0.1', 53919) OK RESULT 0
+2026-02-05 23:08:02 RESP to=('127.0.0.1', 53919) END
+2026-02-05 23:08:02 INFO closing connection ('127.0.0.1', 53919)
+2026-02-05 23:08:18 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:08:22 INFO client connected ('127.0.0.1', 55225)
+2026-02-05 23:08:23 REQ from=('127.0.0.1', 55225) LIST
+2026-02-05 23:08:23 RESP to=('127.0.0.1', 55225) ERROR connection closed while reading response BEAR2
+2026-02-05 23:08:46 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-05 23:08:49 INFO client connected ('127.0.0.1', 57922)
+2026-02-05 23:08:50 REQ from=('127.0.0.1', 57922) LIST
+2026-02-05 23:08:50 RESP to=('127.0.0.1', 57922) ERROR connection closed while reading response BEAR2
