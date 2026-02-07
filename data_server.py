@@ -19,7 +19,6 @@ def listing_to_line(item: Dict) -> str:
     )
 
 def read_line(conn: socket.socket) -> Optional[str]:
-    # Simple line reader (ASCII, newline-terminated)
     buf = b""
     while True:
         chunk = conn.recv(4096)
@@ -28,8 +27,6 @@ def read_line(conn: socket.socket) -> Optional[str]:
         buf += chunk
         if b"\n" in buf:
             line, rest = buf.split(b"\n", 1)
-            # NOTE: We ignore "rest" because this server is sequential/simple and
-            # expects one request per connection read loop.
             return line.decode("ascii", errors="replace").strip()
 
 def send_response(conn: socket.socket, lines: List[str]) -> None:
@@ -94,7 +91,7 @@ def main() -> None:
                 send_response(conn, [f"ERROR {err}\n"])
                 continue
 
-            out = [f"OK RESULT {len(rows)}\n"] #This code is Creating
+            out = [f"OK RESULT {len(rows)}\n"]
             for item in rows:
                 out.append(listing_to_line(item))
             out.append("END\n")
