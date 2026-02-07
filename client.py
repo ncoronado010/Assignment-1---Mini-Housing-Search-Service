@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import argparse
 import socket
 import time
@@ -37,7 +36,7 @@ def print_results(lines: List[str]) -> None:
         print(header)
         return
 
-    listing_lines = lines[1:-1]  # exclude OK... and END
+    listing_lines = lines[1:-1]  
     if not listing_lines:
         print(header)
         print("(no matches)")
@@ -74,7 +73,6 @@ def interactive(f) -> None:
             continue
         ok, lines, err = send_cmd(f, cmd)
         if not ok:
-            # lines[0] is usually ERROR ...
             print(lines[0] if lines else f"ERROR {err}")
         else:
             print_results(lines)
