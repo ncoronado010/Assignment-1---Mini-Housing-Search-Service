@@ -39,9 +39,14 @@ or
 #### Terminal 1 — Start Data Server
 ```bash
 python3 data_server.py --host 127.0.0.1 --port 5001 --data listings.json
+```
 
 #### Terminal 2 - Start App Server
+```bash
 python3 app_server.py --host 127.0.0.1 --port 5000 --data-host 127.0.0.1 --data-port 5001
+```
 
 #### Terminal 3 - Start Client
+```bash
 python3 client.py --host 127.0.0.1 --port 5000
+```
