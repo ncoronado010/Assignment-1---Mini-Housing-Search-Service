@@ -24,24 +24,48 @@ def log_line(direction: str, msg: str) -> None:
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"{ts} {direction} {msg}\n")
 
-def read_line(conn: socket.socket) -> Optional[str]:
-    buf = b""
-    while True:
-        chunk = conn.recv(4096)
-        print(f"TEST chunk being passed into app_server.read_line:\n {chunk}") #DEBUGGING --------------------
-        if not chunk:
-            return None
-        buf += chunk
-        if b"\n" in buf:
-            line, _ = buf.split(b"\n", 1)
-            return line.decode("ascii", errors="replace").strip()
+#Created a class to hold the read_line command so the buffer isn't deleted every use.
+class BufferReader:
+    def __init__(self, conn: socket.socket):
+        self.conn = conn
+        self.buf = b""
 
-def recv_framed_response(conn: socket.socket) -> Tuple[bool, List[str], str]:
+    def read_line(self):
+        while True:
+            if b"\n" in self.buf:
+                line, self.buf = self.buf.split(b"\n", 1)
+                return line.decode("ascii", errors="replace").strip()
+
+            chunk = self.conn.recv(4096)
+            if not chunk:
+                return None
+
+            self.buf += chunk
+
+
+
+#Original read_line()
+# def read_line(conn: socket.socket) -> Optional[str]:
+#     buf = b""
+#     while True:
+#         chunk = conn.recv(4096)
+#         print(f"TEST chunk being passed into app_server.read_line:\n {chunk}") #DEBUGGING --------------------
+#         if not chunk:
+#             return None
+#         buf += chunk
+#         if b"\n" in buf:
+#             line, _ = buf.split(b"\n", 1)
+#             return line.decode("ascii", errors="replace").strip()
+
+
+
+#Changed recv to take in a BufferReader object instead of conn, and use the new read_line function
+
+def recv_framed_response(reader) -> Tuple[bool, List[str], str]:
     # Reads until END or ERROR
     lines: List[str] = []
     while True:
-        line = read_line(conn)
-        print(f"TEST Line being read by app_server.recv_framed\n {line}") #DEBUGGING -----------------------
+        line = reader.read_line()  #saving line using the new read_line fucntion                     #line = read_line(conn)
         if line is None:
             return False, [], "connection closed while reading response TEST B"
         lines.append(line)
@@ -104,13 +128,15 @@ class LRUCache:
         while len(self._od) > self.max_size:
             self._od.popitem(last=False)
 
+#Created a BufferReader object and passed the socket into it. The object holds the current buffer until the with ends.
 def forward_to_data_server(data_host: str, data_port: int, cmd: str):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.settimeout(3.0)
             s.connect((data_host, data_port))
+            reader = BufferReader(s)  #Create BufferReader Object
             s.sendall((cmd + "\n").encode("ascii"))
-            ok, lines, err = recv_framed_response(s)
+            ok, lines, err = recv_framed_response(reader)  #Passing BufferReader object instead of socket         #ok, lines, err = recv_framed_response(s) #Orignal
             return ok, lines, err
     except Exception as e:
         return False, [], f"data server unreachable: {e}"
@@ -209,9 +235,10 @@ def main() -> None:
     while True:
         conn, addr = srv.accept()
         with conn:
+            reader = BufferReader(conn) #Create BufferReader Object
             log_line("INFO", f"client connected {addr}")
             while True:
-                line = read_line(conn)
+                line = reader.read_line() #Creating line with the new read_line function           #line = read_line(conn) #Original
                 if line is None:
                     log_line("INFO", f"client disconnected {addr}")
                     break
