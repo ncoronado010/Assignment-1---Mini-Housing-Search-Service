@@ -205,3 +205,577 @@
 2026-02-05 23:08:49 INFO client connected ('127.0.0.1', 57922)
 2026-02-05 23:08:50 REQ from=('127.0.0.1', 57922) LIST
 2026-02-05 23:08:50 RESP to=('127.0.0.1', 57922) ERROR connection closed while reading response BEAR2
+2026-02-07 08:38:54 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-07 08:39:17 INFO client connected ('127.0.0.1', 54022)
+2026-02-07 08:39:20 REQ from=('127.0.0.1', 54022) LIST
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) OK RESULT 20
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=19;city=Irvine;address=12 University Pl;price=1950;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=12;city=Irvine;address=50 Campus Dr;price=2000;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=8;city=SanDiego;address=22 Harbor Dr;price=2100;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=13;city=Irvine;address=55 Campus Dr;price=2300;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=7;city=SanDiego;address=10 Bay St;price=2600;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=16;city=SanDiego;address=300 Ocean Ave;price=2700;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=5;city=LA;address=200 Hollywood Rd;price=2800;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=14;city=LA;address=77 Laurel Canyon;price=2900;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=4;city=LA;address=100 Sunset Blvd;price=3200;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=18;city=LA;address=808 Melrose Ave;price=3300;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=6;city=LA;address=321 Vine St;price=3500;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=10;city=SanFrancisco;address=9 Castro St;price=3800;bedrooms=1
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=9;city=SanFrancisco;address=1 Market St;price=4200;bedrooms=2
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) id=20;city=SanFrancisco;address=77 Lombard St;price=4500;bedrooms=3
+2026-02-07 08:39:20 RESP to=('127.0.0.1', 54022) END
+2026-02-07 08:40:16 REQ from=('127.0.0.1', 54022) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) OK RESULT 6
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:40:16 RESP to=('127.0.0.1', 54022) END
+2026-02-07 08:40:36 REQ from=('127.0.0.1', 54022) Quit
+2026-02-07 08:40:36 RESP to=('127.0.0.1', 54022) ERROR unknown command 'Quit'
+2026-02-07 08:40:36 INFO client disconnected ('127.0.0.1', 54022)
+2026-02-07 08:40:43 INFO client connected ('127.0.0.1', 54030)
+2026-02-07 08:40:46 REQ from=('127.0.0.1', 54030) QUIT
+2026-02-07 08:40:46 RESP to=('127.0.0.1', 54030) OK RESULT 0
+2026-02-07 08:40:46 RESP to=('127.0.0.1', 54030) END
+2026-02-07 08:40:46 INFO closing connection ('127.0.0.1', 54030)
+2026-02-07 08:46:55 INFO client connected ('127.0.0.1', 54125)
+2026-02-07 08:48:10 INFO app_server started host=127.0.0.1 port=5000 cache=OFF
+2026-02-07 08:48:23 INFO client connected ('127.0.0.1', 54147)
+2026-02-07 08:48:25 REQ from=('127.0.0.1', 54147) LIST
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) OK RESULT 20
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=19;city=Irvine;address=12 University Pl;price=1950;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=12;city=Irvine;address=50 Campus Dr;price=2000;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=8;city=SanDiego;address=22 Harbor Dr;price=2100;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=13;city=Irvine;address=55 Campus Dr;price=2300;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=7;city=SanDiego;address=10 Bay St;price=2600;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=16;city=SanDiego;address=300 Ocean Ave;price=2700;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=5;city=LA;address=200 Hollywood Rd;price=2800;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=14;city=LA;address=77 Laurel Canyon;price=2900;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=4;city=LA;address=100 Sunset Blvd;price=3200;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=18;city=LA;address=808 Melrose Ave;price=3300;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=6;city=LA;address=321 Vine St;price=3500;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=10;city=SanFrancisco;address=9 Castro St;price=3800;bedrooms=1
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=9;city=SanFrancisco;address=1 Market St;price=4200;bedrooms=2
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) id=20;city=SanFrancisco;address=77 Lombard St;price=4500;bedrooms=3
+2026-02-07 08:48:25 RESP to=('127.0.0.1', 54147) END
+2026-02-07 08:48:44 REQ from=('127.0.0.1', 54147) SEARCH city=LongBeach max_price=9999999
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) OK RESULT 6
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:48:44 RESP to=('127.0.0.1', 54147) END
+2026-02-07 08:49:25 INFO app_server started host=127.0.0.1 port=5000 cache=ON
+2026-02-07 08:49:34 INFO client connected ('127.0.0.1', 54165)
+2026-02-07 08:49:45 REQ from=('127.0.0.1', 54165) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) OK RESULT 6
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) END
+2026-02-07 08:49:45 REQ from=('127.0.0.1', 54165) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) OK RESULT 6
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:49:45 RESP to=('127.0.0.1', 54165) END
+2026-02-07 08:51:12 REQ from=('127.0.0.1', 54165) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) OK RESULT 6
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:51:12 RESP to=('127.0.0.1', 54165) END
+2026-02-07 08:51:32 REQ from=('127.0.0.1', 54165) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) OK RESULT 6
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:51:32 RESP to=('127.0.0.1', 54165) END
+2026-02-07 08:52:38 INFO client disconnected ('127.0.0.1', 54165)
+2026-02-07 08:57:28 INFO client connected ('127.0.0.1', 54226)
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) SEARCH city=LongBeach max_price=2500
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 6
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=3;city=LongBeach;address=78 Elm St;price=1800;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=17;city=LongBeach;address=400 Harbor Blvd;price=2100;bedrooms=1
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=2;city=LongBeach;address=45 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=11;city=LongBeach;address=999 Pine Ave;price=2400;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) id=15;city=LongBeach;address=180 Seaside Way;price=2500;bedrooms=3
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 REQ from=('127.0.0.1', 54226) QUIT
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) OK RESULT 0
+2026-02-07 08:57:28 RESP to=('127.0.0.1', 54226) END
+2026-02-07 08:57:28 INFO closing connection ('127.0.0.1', 54226)
+2026-02-07 08:58:01 INFO client connected ('127.0.0.1', 54230)
+2026-02-07 08:58:04 REQ from=('127.0.0.1', 54230) HELLO
+2026-02-07 08:58:04 RESP to=('127.0.0.1', 54230) ERROR unknown command 'HELLO'
